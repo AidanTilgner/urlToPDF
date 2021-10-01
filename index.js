@@ -26,7 +26,6 @@ rl.question("Type 'p' for a PDF and 's' for a screenshot: \n", res =>{
             screenshot(url)
         });
     }
-    rl.close()
 })
 
 
