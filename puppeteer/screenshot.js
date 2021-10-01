@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 const path = require("path");
-const downloadPath = path.resolve("../images/image.jpg");
+const downloadPath = path.resolve("./images/image.jpg");
 
 const screenshot = async (url) => {
   console.log("Taking screenshot");

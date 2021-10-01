@@ -1,6 +1,6 @@
 const puppeteer = require("puppeteer");
 const path = require("path");
-const downloadPath = path.resolve("../images/webpage.pdf");
+const downloadPath = path.resolve("./images/webpage.pdf");
 
 const toPDF = async (url) => {
   console.log("Taking pdf");
