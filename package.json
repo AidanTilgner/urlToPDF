@@ -1,0 +1,24 @@
+{
+  "name": "urlToPDF",
+  "version": "1.0.0",
+  "description": "Just clone this repo >\r npm install >\r change path.resolve in pdf.js and screenshot.js files >\r node index.js >\r type in a url >\r see it work!",
+  "main": "index.js",
+  "dependencies": {
+    "puppeteer": "^10.4.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AidanTilgner/urlToPDF.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AidanTilgner/urlToPDF/issues"
+  },
+  "homepage": "https://github.com/AidanTilgner/urlToPDF#readme"
+}
